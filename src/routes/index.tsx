@@ -3,16 +3,6 @@ import { ArrowUpRight } from "lucide-react";
 
 export const Route = createFileRoute("/")({
   component: Index,
-  head: () => ({
-    meta: [
-      { title: "Dubiflow — a place for devs who actually ship" },
-      {
-        name: "description",
-        content:
-          "Dubiflow is where developers publish projects, get them in front of real people, and find work across borders. Less shouting into the void.",
-      },
-    ],
-  }),
 });
 
 /* ---------- hand-drawn-ish SVG illustrations ---------- */
